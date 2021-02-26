@@ -50,6 +50,10 @@ h1 {
 .drop-down-dog-list {
   border-radius: 10px solid white;;
 }
+
+a {
+  color: #F0F2EF;
+}
 /*  Phase 4: Slide In & Out Classes */
 
 .align-left {
