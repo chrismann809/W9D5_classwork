@@ -1,7 +1,7 @@
 
 html {
   box-sizing: border-box;
-  background: #A9DBB8;
+  background: #ff9100;
   text-align: center;
 }
 
@@ -22,6 +22,34 @@ h1 {
   margin-top: 100px;
 }
 
+.dog-link {
+  display: none;
+}
+
+.show-link {
+  display: block;
+  background-color: rgb(0, 128, 38);
+  width: 275px;
+  height: auto;
+  margin: auto;
+  border-right: 1px solid white;
+  border-left: 1px solid white;
+  /* border-radius: 10px; */
+}
+
+.show-link:first-child {
+  /* border-top: 1px solid white; */
+  padding-top: 25px;
+}
+
+.show-link:last-child {
+  border-bottom: 1px solid white;
+  padding-bottom: 25px;
+}
+
+.drop-down-dog-list {
+  border-radius: 10px solid white;;
+}
 /*  Phase 4: Slide In & Out Classes */
 
 .align-left {
@@ -53,8 +81,9 @@ h1 {
 }
 
 #clock {
-  background-color: teal;
+  background-color: rgb(0, 128, 38);
   border: 1px solid white;
+  border-radius: 2px;
   width: 80px;
   height: auto;
   margin: auto;
